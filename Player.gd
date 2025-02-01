@@ -2,6 +2,7 @@ extends KinematicBody2D
 
 const GRAVITY = 200.0
 const WALK_SPEED = 200
+#var JumpForce = 150
 var velocity = Vector2(0, 1)
 
 func _ready():
@@ -21,5 +22,8 @@ func _physics_process(delta):
 		$AnimatedSprite.animation = "right"
 	else:
 		velocity.x = 0
+		
+	#if Input.is_action_pressed("Jump") and is_on_floor():
+		#velocity.y -= JumpForce
 	
 	move_and_slide(velocity)
