@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fairy_right.png-b709c90d44a927a9bb5c9720dc412673.stex"
+path="res://.import/spacefarer_fire_right.png-b9a0cbcd4a9954175df4981f666ebc53.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/fairy_right.png"
-dest_files=[ "res://.import/fairy_right.png-b709c90d44a927a9bb5c9720dc412673.stex" ]
+source_file="res://Assets/Sprites/spacefarer_fire_right.png"
+dest_files=[ "res://.import/spacefarer_fire_right.png-b9a0cbcd4a9954175df4981f666ebc53.stex" ]
 
 [params]
 
