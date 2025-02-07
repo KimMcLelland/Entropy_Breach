@@ -4,7 +4,7 @@
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
 
 [node name="The Beach" type="ColorRect"]
-margin_right = 1024.0
+margin_right = 3072.0
 margin_bottom = 600.0
 color = Color( 0.196078, 0.784314, 1, 1 )
 __meta__ = {
@@ -12,7 +12,13 @@ __meta__ = {
 }
 
 [node name="Sand" parent="." instance=ExtResource( 1 )]
-position = Vector2( -1, 534 )
+position = Vector2( 0, 536 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 52, 229 )
+
+[node name="Sand2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1024, 536 )
+
+[node name="Sand3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2048, 536 )
